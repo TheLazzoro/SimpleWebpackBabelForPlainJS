@@ -16,5 +16,5 @@ If you have prepared Nginx for hosting this project, you can deploy it using the
 ### Using Bootstrap that requires the Bootstrap JavaScrip
 To minimize the footprint made by this code, it does not include the JavaScript part of BootStrap. If you need it, follow these steps:
 
-- In the root of the project type: 'npm install jquery popper.js'
-- In your index.js file, add this import just ABOVE the line that includes the bootstrap.css: 'import "bootstrap"'
+- In the root of the project type: `npm install jquery popper.js`
+- In your index.js file, add this import just ABOVE the line that includes the bootstrap.css: `import "bootstrap"`
