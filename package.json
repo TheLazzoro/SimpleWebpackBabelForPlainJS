@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server --open --mode development",
+    "start": "webpack-dev-server --open --port 3456 --mode development",
     "build": "webpack --mode production",
     "serve_build": "webpack --mode production && serve build"
   },
