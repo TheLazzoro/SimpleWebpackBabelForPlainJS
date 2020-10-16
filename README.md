@@ -9,6 +9,11 @@
 - In the folder it was cloned into type npm start, to run the project via Webpacks development server
 - A browser window should now open, rendering the project hosted on Webpacks dev-server. You now have a local web server with hot reloading. Any changes made in your code are directly reflected in the browser (How cool is that?)
 
+## Supporting video, related to the first use with the Fetch and Promises exercises given in period2, week2.
+
+[Getting started with the Fetch and Promise exercises](https://www.youtube.com/watch?v=Kc0a43cY-tk&feature=youtu.be)
+
+
 ### Deploy to Nginx
 
 If you have prepared Nginx for hosting this project, you can deploy it using the simple script 'deploy.sh' found in the root of the project
