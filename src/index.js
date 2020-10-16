@@ -3,6 +3,8 @@ import "bootstrap/dist/css/bootstrap.css"
 import "./jokeFacade"
 import jokeFacade from "./jokeFacade"
 
+document.getElementById("all-content").style.display = "block"
+
 /* 
   Add your JavaScript for all exercises Below or in separate js-files, which you must the import above
 */
