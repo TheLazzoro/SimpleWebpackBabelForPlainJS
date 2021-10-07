@@ -1,5 +1,7 @@
 import "./style.css"
 import "bootstrap/dist/css/bootstrap.css"
+import * as bootstrap from 'bootstrap';
+import '@popperjs/core';
 import "./jokeFacade"
 import jokeFacade from "./jokeFacade"
 
@@ -24,7 +26,8 @@ Do NOT focus on the code below, UNLESS you want to use this code for something d
 the Period2-week2-day3 Exercises
 */
 
-function hideAllShowOne(idToShow) {
+function hideAllShowOne(idToShow)
+{
   document.getElementById("about_html").style = "display:none"
   document.getElementById("ex1_html").style = "display:none"
   document.getElementById("ex2_html").style = "display:none"
@@ -32,9 +35,11 @@ function hideAllShowOne(idToShow) {
   document.getElementById(idToShow).style = "display:block"
 }
 
-function menuItemClicked(evt) {
+function menuItemClicked(evt)
+{
   const id = evt.target.id;
-  switch (id) {
+  switch (id)
+  {
     case "ex1": hideAllShowOne("ex1_html"); break
     case "ex2": hideAllShowOne("ex2_html"); break
     case "ex3": hideAllShowOne("ex3_html"); break
