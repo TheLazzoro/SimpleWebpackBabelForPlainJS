@@ -21,16 +21,19 @@ function listAllJokes() {
 
 listAllJokes();
 
-function getFirstJoke() {
-  const jokes = jokeFacade.getJokes();
-  const joke = jokes[0];
-
-  return joke;
-}
-
 document.getElementById("btnGetJoke").addEventListener("click", (event) => {
-  const joke = getFirstJoke();
+  const jokes = jokeFacade.getJokes();
+  const id = Math.floor(Math.random() * jokes.length);
+  const joke = jokes[id];
+
   document.getElementById("singleJokeContainer").innerHTML = joke;
+});
+
+document.getElementById("btnAddJoke").addEventListener("click", (event) => {
+  const text = document.getElementById("txtboxAddJoke").value;
+  jokeFacade.addJoke(text);
+
+  document.getElementById("txtboxAddJoke").value = ""; // reset text field
 });
 
 /* JS For Exercise-2 below */
